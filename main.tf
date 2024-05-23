@@ -6,6 +6,7 @@ resource "kubernetes_namespace" "example" {
   }
     
 }
+
 resource "kubernetes_resource_quota" "example" {
   metadata {
     name = "po-quota"
